@@ -1,2 +1,7 @@
 Python docs subprocess: https://docs.python.org/3/library/subprocess.html
 Linux signal codes: https://www.man7.org/linux/man-pages/man7/signal.7.html
+
+Processes:
+https://www.codingninjas.com/studio/library/introduction-to-process-management
+https://www.geeksforgeeks.org/introduction-of-process-management/
+
