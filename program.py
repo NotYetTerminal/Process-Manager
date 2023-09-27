@@ -15,12 +15,10 @@ class ProcessClass:
 	"""
 
 	proc: subprocess.Popen = None
-	sleeping: bool = False
 
 
 	def __init__(self: object, new_process: subprocess.Popen) -> object:
 		self.proc = new_process
-		self.sleeping = False
 
 
 	def wake_process(self: object) -> None:
