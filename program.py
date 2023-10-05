@@ -11,7 +11,6 @@ class ProcessClass:
 	"""
 	class for process
 	stores Popen class
-	and is whether the process is sleeping
 	"""
 
 	proc: subprocess.Popen = None
