@@ -1,7 +1,7 @@
 import subprocess
 import time
 
-## signal for wakeing process
+## signal for waking process
 SIGCONT: int = 18
 ## signal for sleeping process
 SIGSTOP: int = 19
@@ -75,7 +75,7 @@ def exit_program(process_dictionary: dict) -> None:
 def create_new_process(process_dictionary: dict) -> None:
 	program_name: str = input("Input program name: ")
 
-	## checks if the programm exists
+	## checks if the program exists
 	try:
 		new_process: subprocess.Popen = subprocess.Popen([program_name])
 	except FileNotFoundError:
