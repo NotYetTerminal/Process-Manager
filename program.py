@@ -1,3 +1,7 @@
+## Name: Gábor Major
+## Number: C00271548
+## Date Modified: 16.10.2023
+
 import subprocess
 import time
 
